@@ -32,6 +32,8 @@
     "class-validator": "^0.13.2",
     "cookie-parser": "^1.4.6",
     "csurf": "^1.11.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-unused-imports": "^2.0.0",
     "passport": "^0.6.0",
     "passport-jwt": "^4.0.0",
     "reflect-metadata": "^0.1.13",
