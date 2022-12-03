@@ -4,7 +4,7 @@ export type AuthForm = {
 };
 
 export type EditedTask = {
-  id: string;
+  id: number;
   title: string;
   description: string | null;
 };
