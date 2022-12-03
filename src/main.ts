@@ -5,7 +5,7 @@ import { AppModule } from './app.module';
 
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
-  app.useGlobalPipes(new ValidationPipe({ whitelist: true }));
+  app.useGlobalPipes(new ValidationPipe({ whitelist: true })); // dtoに無駄なフィールドがあっても省いてくれる
   app.enableCors({
     credentials: true, // cookieベースでjwt生成するため
     origin: ['http://localhost:3000'],
